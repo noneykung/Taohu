@@ -3,6 +3,7 @@ import requests
 from random import randint
 from discord.ext import commands
 from datetime import datetime, timedelta
+import json 
 import os
 from os import path
 from discord_slash import SlashCommand
@@ -11,8 +12,7 @@ bot = commands.Bot(command_prefix='/',help_command=None)
 
 message_lastseen = datetime.now()
 # Bot Token Taohu = input('Insert Token : ')
-
-token = ('OTAyMTA0MzM3ODEwMDY3NDU5.YXZkIg.8REqslub1wnvCR3X8TEQF_LJhe8')
+token = input("Insert token here : ")
 
 def randomText_Mention(target = "{0.author.mention}"):
     Words = ["ว่าไง?","อะไร?","ไม่สน","อย่ามายุ่ง","ลาก่อน","Leave me alone!!!!","สวย","เริ่ดมาก","เชิญห้องปกครอง","อ๊อยหย๋อ","ลาออก!","ไม่อ่าน ไม่ตอบ ไม่สน...",";w;","=A=!","- -*","แล้วไง?"
