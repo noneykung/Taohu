@@ -6,7 +6,7 @@ from discord_slash import SlashCommand
 bot = commands.Bot(command_prefix='/',help_command=None)
 slash = SlashCommand(bot, sync_commands=True)
 
-token = ('OTAyMTA0MzM3ODEwMDY3NDU5.YXZkIg.8REqslub1wnvCR3X8TEQF_LJhe8')
+token = ('...')
 
 guild_id = [698129392257466380]
 
